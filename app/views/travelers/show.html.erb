@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @traveler.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @traveler.age %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @traveler.country %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @traveler.state %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @traveler.city %>
+</p>
+
+<p>
+  <strong>Duration of travel:</strong>
+  <%= @traveler.duration_of_travel %>
+</p>
+
+<p>
+  <strong>Origin:</strong>
+  <%= @traveler.origin %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @traveler.destination %>
+</p>
+
+<%= link_to 'Edit', edit_traveler_path(@traveler) %> |
+<%= link_to 'Back', travelers_path %>
